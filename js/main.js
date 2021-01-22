@@ -17,7 +17,9 @@ const obg = {
 };
 
 console.log(obg["name"]);
-
+hhhghghghjghjhgjhgh
+sdsgsgsdgsgs
+fdfgdfgdfgdf
 
 const otvet = confirm(`ti men or wodmen`);
 console.log(otvet);

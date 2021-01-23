@@ -15,15 +15,7 @@ const obg = {
     name: "sasha"
 
 };
-7777777777777777777777777777777
-77777777777777777777777777777777
-77777777777777777777777777777777
-888888888888888888888888888888888
-console.log(obg["name"]);
-hhhghghghjghjhgjhgh
-sdsgsgsdgsgs
-fdfgdfgdfgdf
-6565665656566556
+
 const otvet = confirm(`ti men or wodmen`);
 console.log(otvet);
 */

@@ -39,16 +39,6 @@
 
 /* 1. Theme default css
 -------------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
-@font-face {font-family: "FuturaStd-Book";
-	src: url("../fonts/FuturaStd-Book/35e5d1a7aa6da471de4cfb4a47ebaca8.eot"); /* IE9*/
-	src: url("../fonts/FuturaStd-Book/35e5d1a7aa6da471de4cfb4a47ebaca8.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-	url("../fonts/FuturaStd-Book/35e5d1a7aa6da471de4cfb4a47ebaca8.woff2") format("woff2"), /* chrome、firefox */
-	url("../fonts/FuturaStd-Book/35e5d1a7aa6da471de4cfb4a47ebaca8.woff") format("woff"), /* chrome、firefox */
-	url("../fonts/FuturaStd-Book/35e5d1a7aa6da471de4cfb4a47ebaca8.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-	url("../fonts/FuturaStd-Book/35e5d1a7aa6da471de4cfb4a47ebaca8.svg#FuturaStd-Book") format("svg"); /* iOS 4.1- */
-}
-
 body {
 	font-family: "FuturaStd-Book";
 	font-weight: 400;
@@ -354,11 +344,11 @@ a:focus,a:hover,.portfolio-cat a:hover,.footer-menu li a:hover {
 	box-shadow: 0 8px 4px -7px rgba(115,115,115,0.1);
 }
 .header-area.sticky-menu,.header:hover {background: #fff;}
-.logo img {max-width: 100px;}
-.logo img {
+.logo img {max-width: 250px;}
+/**.logo img {
 	filter: invert(1) sepia(1) hue-rotate(0deg) brightness(1.2);
-}
-.sticky-menu .header .logo img,.header-area:hover .logo img,.header-2 .logo img,.header-6 .logo img{filter: invert(0) sepia(0) hue-rotate(0deg) brightness(0);}
+}**/
+/**.sticky-menu .header .logo img,.header-area:hover .logo img,.header-2 .logo img,.header-6 .logo img{filter: invert(0) sepia(0) hue-rotate(0deg) brightness(0);}**/
 .sticky-menu .header a.active::before,.header-area:hover a.active::before,.header.header-2 a.active::before,.header.header-6 a.active::before {background: #222;}
 .main-menu ul li {
 	display: inline-block;
@@ -481,7 +471,7 @@ a:focus,a:hover,.portfolio-cat a:hover,.footer-menu li a:hover {
 -------------------------------------------------------------- */
 .slider-height{min-height: 900px;}
 .slider-2 .slider-active{min-height: 820px;}
-.slider-height-2,.slider-site{min-height: 815px;}
+.slider-height-2,.slider-site{min-height: 265px;}
 .slider-height-3{min-height: 800px;}
 .slider-height-4{min-height: 660px;}
 .slider-height-5{min-height: 100vh;}

@@ -46,7 +46,9 @@
                             </div>
                             ---->
                             <div class="logo float-right float-xl-left">
-                                <a href="index.html"><img src="/images/logo/logo-FreyaMebel3.jpg" alt="Agota"></a>
+                                <a href="index.html"><img src="/images/logo/logo-FreyaMebel3.jpg" alt="Agota">
+                                    <svg viewBox="0 0 250 50"><use xlink:href="css/svg/sprite.svg#logo"></use></svg>
+                                </a>
                             </div>
                             <div class="d-block d-xl-none">
                                 <a class="mobile-menubar" href="javascript:void(0);"><i class="fas fa-bars"></i></a>
@@ -168,14 +170,10 @@
                                 <ul class="header-search d-none d-xl-block">
                                     <li><a href="javascript:void(0);"><span class="icon-search"></span></a></li>
                                 </ul>
-                                <ul class="header-heart d-none d-xl-block">
-                                    <li><a href="wishlist.html" data-toggle="tooltip" data-selector="true"
-                                            data-placement="bottom" title="View wishlist"><span
-                                                class="icon-heart"></span><sup class="s-count">0</sup></a></li>
-                                </ul>
                                 <ul>
-                                    <li><a class="header-shopping-cart" href="#"><span
-                                                class="icon-shopping-bag"></span><sup class="s-count">0</sup></a></li>
+                                    <li><a class="header-shopping-cart" href="#">
+                                        <span class="icon-shopping-bag"><svg viewBox="0 0 208.955 208.955"><use xlink:href="css/svg/sprite.svg#shop-bag"></use></svg></span>
+                                                <sup class="s-count">0</sup></a></li>
                                 </ul>
                             </div><!-- /header-right -->
                         </div><!-- /col -->
@@ -183,8 +181,12 @@
                 </div><!-- /container -->
             </div>
         </div><!-- /header-bottom -->
-    </header>
+    </header>  
     <!--  header area end -->
+
+    <!----ver2 Header-->
+    
+    <!--ver2-->
 
     <!--  ====== header extra info start================================== -->
     <!-- side-mobile-menu start -->
@@ -219,28 +221,6 @@
             </ul>
         </div><!-- /header-right -->
     </div><!-- /side-mobile-menu -->
-    <div class="body-overlay"></div>
-    <!-- header search details start -->
-    <div class="header-search-details text-center white-bg pt-60 pl-230 pr-230">
-        <div class="close-icon float-right">
-            <a href="javascript:void(0);"><span class="icon-clear"></span></a>
-        </div>
-        <div class="header-search-content pt-200 ml-150 mr-150">
-            <h4 class="mb-25">Searching</h4>
-            <ul class="d-flex justify-content-center">
-                <li><a class="active" href="shop.html">All categories</a></li>
-                <li><a href="shop.html">Bedroom</a></li>
-                <li><a href="shop.html">Decor</a></li>
-                <li><a href="shop.html">Decoration</a></li>
-                <li><a href="shop.html">Kitchen</a></li>
-                <li><a href="shop.html">Lamp</a></li>
-            </ul>
-            <form action="#" class="position-relative pt-10">
-                <input type="text" placeholder="Search Products...">
-                <a class="position-absolute" href="#"><span class="icon-search"></span></a>
-            </form>
-        </div>
-    </div><!-- /extra-info -->
 
     <!-- header-shopping-cart-details start -->
     <div class="header-shopping-cart-details white-bg pt-50 pb-40 pl-50 pr-40">
@@ -296,7 +276,7 @@
 
         <!-- ====== bestseller-product-area-start================================ -->
         <div class="Bestsellers Products-area">
-            <div class="container-wrapper pl-15 pr-15">
+            <div class="container-wrapper-home4 bg-white pl-2 pr-2">
                 <div class="row">
                     <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
                         <div class="section-title text-center pt-90 pb-30">
@@ -310,37 +290,23 @@
                     <div class="col-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="single-product bg-white position-relative pb-30">
                             <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
+                                <a href="single-product.html"><img class="height100" src="images/product/home-product1.jpg" alt=""></a>
                                 <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
+                                    <a href="single-product.html"><img class="height100" src="images/product/home-product-hover-1.jpg" alt=""></a>
                                 </div><!-- /single-product-hover-img -->
                                 <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom" title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom" title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
                                     </li>
                                 </ul>
 
                                 <div class="countdown-time d-flex border-gray position-absolute">
                                     <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
+                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span class="time-count">309</span>
                                                 <p>Days</p>
                                             </span> <span class="cdown hour"><span class="time-count">9</span>
                                                 <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
+                                            </span></div>
                                     </div>
                                 </div><!-- /countdown-time -->
                             </div><!-- /single-product-img -->
@@ -350,183 +316,7 @@
                                 <span class="black-color"><ins>$799.00</ins></span>
                                 <span class="old-price"><del>$829.00</del></span>
                             </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div><!-- /col -->
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product5.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-5.jpg" alt=""></a>
-                                    <ul class="single-product-button d-flex position-absolute">
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Add to option"><a href="#"><span
-                                                    class="icon-shopping-bag"></span></a></li>
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Bottle Grinder with Steel Lid"><a href="#" data-toggle="modal"
-                                                data-target="#product-modal"><span class="icon-eye"></span></a></li>
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                        </li>
-                                    </ul>
-                                </div><!-- /single-product-hover-img -->
-                            </div><!-- /single-product-img -->
-
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Bottle Grinder with Steel
-                                    Lid</a></h5>
-                            <div class="product-price pl-20 d-inline-block">
-                                <span class="black-color">$396.00</span>
-                            </div>
-                            <div class="product-dot d-inline-block float-right pr-20">
-                                <span class="green-bg"></span>
-                                <span class="black-bg"></span>
-                                <span class="yellow-bg"></span>
-                            </div><!-- /product-dot -->
+                            <a href="#" class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
                         </div><!-- /single-product -->
                     </div><!-- /col -->
                     <div class="col-6 col-md-4 col-lg-3 col-xl-2">
@@ -541,9 +331,6 @@
                                         <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
                                             title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a>
                                         </li>
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Antique Chinese Armchairs"><a href="#" data-toggle="modal"
-                                                data-target="#product-modal"><span class="icon-eye"></span></a></li>
                                         <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
                                             title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
                                         </li>
@@ -562,194 +349,6 @@
                         <div class="single-product bg-white position-relative pb-30">
                             <div class="single-product-img position-relative">
                                 <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div><!-- /col -->
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
                                         src="images/product/home-product5.jpg" alt=""></a>
                                 <div class="single-product-hover-img position-absolute">
                                     <a href="single-product.html"><img class="height100"
@@ -758,9 +357,6 @@
                                         <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
                                             title="Add to option"><a href="#"><span
                                                     class="icon-shopping-bag"></span></a></li>
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Bottle Grinder with Steel Lid"><a href="#" data-toggle="modal"
-                                                data-target="#product-modal"><span class="icon-eye"></span></a></li>
                                         <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
                                             title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
                                         </li>
@@ -793,8 +389,62 @@
                                             title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a>
                                         </li>
                                         <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Antique Chinese Armchairs"><a href="#" data-toggle="modal"
-                                                data-target="#product-modal"><span class="icon-eye"></span></a></li>
+                                            title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                        </li>
+                                    </ul>
+                                </div><!-- /single-product-hover-img -->
+                            </div><!-- /single-product-img -->
+
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Antique Chinese
+                                    Armchairs</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color">$196.00</span>
+                            </div>
+                        </div><!-- /single-product -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product5.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-5.jpg" alt=""></a>
+                                    <ul class="single-product-button d-flex position-absolute">
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to option"><a href="#"><span
+                                                    class="icon-shopping-bag"></span></a></li>
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                        </li>
+                                    </ul>
+                                </div><!-- /single-product-hover-img -->
+                            </div><!-- /single-product-img -->
+
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Bottle Grinder with Steel
+                                    Lid</a></h5>
+                            <div class="product-price pl-20 d-inline-block">
+                                <span class="black-color">$396.00</span>
+                            </div>
+                            <div class="product-dot d-inline-block float-right pr-20">
+                                <span class="green-bg"></span>
+                                <span class="black-bg"></span>
+                                <span class="yellow-bg"></span>
+                            </div><!-- /product-dot -->
+                        </div><!-- /single-product -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product6.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-6.jpg" alt=""></a>
+                                    <ul class="single-product-button d-flex position-absolute">
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a>
+                                        </li>
                                         <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
                                             title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
                                         </li>
@@ -822,8 +472,8 @@
         <!-- product-area-end  -->
 
         <!-- ====== product-offer-area-start ===================================== -->
-        <div class="product-offer-area product-offer-height pl-15 pr-15 pt-100">
-            <div class="container-wrapper">
+        <div class="product-offer-area product-offer-area-4 product-offer-height over-hidden">
+            <div class="container-wrapper-home4 extra-padding-40 bg-white pt-100">
                 <div class="row">
                     <div class="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12 pb-20">
                         <div class="single-feature position-relative over-hidden">
@@ -832,9 +482,7 @@
                                 <span class="primary-color">Ends Today</span>
                                 <h3 class="text-white pt-10 pb-30">Elements Of Style</h3>
                                 <p class="text-white">USB Powered LED Lights – Use it Anywhere!</p>
-                                <a href="shop.html"
-                                    class="btn2 text-white position-relative d-inline-block pt-45 pb-6">Explore
-                                    Items</a>
+                                <a href="shop.html" class="btn2 text-white position-relative d-inline-block pt-45 pb-6">Explore Items</a>
                             </div><!-- /section-content -->
                         </div>
                     </div><!-- /col -->
@@ -845,9 +493,7 @@
                                 <span class="primary-color">Your Space</span>
                                 <h3 class="text-white pt-10 pb-30">Unique Life</h3>
                                 <p class="text-white">Big Sale September 8th To October 6th</p>
-                                <a href="shop.html"
-                                    class="btn2 text-white position-relative d-inline-block pt-45 pb-6">Explore
-                                    Items</a>
+                                <a href="shop.html" class="btn2 text-white position-relative d-inline-block pt-45 pb-6">Explore Items</a>
                             </div><!-- /section-content -->
                         </div>
                     </div><!-- /col -->
@@ -855,663 +501,6 @@
             </div><!-- /container -->
         </div>
         <!--  product-offer-area-end  -->
-
-        <!-- ====== bestseller-product-area-start================================ -->
-        <div class="Bestsellers Products-area">
-            <div class="container-wrapper pl-15 pr-15">
-                <div class="row">
-                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                        <div class="section-title text-center pt-90 pb-30">
-                            <h2>Bestsellers Products</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt
-                                ut labore.</p>
-                        </div><!-- /section-title -->
-                    </div><!-- /col -->
-                </div><!-- /row -->
-                <div class="row">
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div><!-- /col -->
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product1.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
-                                </div><!-- /single-product-hover-img -->
-                                <ul class="single-product-button d-flex position-absolute">
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Form Armchair Walnut Base">
-                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
-                                                class="icon-eye"></span></a>
-                                    </li>
-                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                    </li>
-                                </ul>
-
-                                <div class="countdown-time d-flex border-gray position-absolute">
-                                    <div class="timer">
-                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
-                                                    class="time-count">309</span>
-                                                <p>Days</p>
-                                            </span> <span class="cdown hour"><span class="time-count">9</span>
-                                                <p>Hour</p>
-                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
-                                                <p>Min</p>
-                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
-                                                    <p>Sec</p>
-                                                </span></span></div>
-                                    </div>
-                                </div><!-- /countdown-time -->
-                            </div><!-- /single-product-img -->
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
-                                    Base</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color"><ins>$799.00</ins></span>
-                                <span class="old-price"><del>$829.00</del></span>
-                            </div>
-                            <a href="#"
-                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
-                        </div><!-- /single-product -->
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product5.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-5.jpg" alt=""></a>
-                                    <ul class="single-product-button d-flex position-absolute">
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Add to option"><a href="#"><span
-                                                    class="icon-shopping-bag"></span></a></li>
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Bottle Grinder with Steel Lid"><a href="#" data-toggle="modal"
-                                                data-target="#product-modal"><span class="icon-eye"></span></a></li>
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                        </li>
-                                    </ul>
-                                </div><!-- /single-product-hover-img -->
-                            </div><!-- /single-product-img -->
-
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Bottle Grinder with Steel
-                                    Lid</a></h5>
-                            <div class="product-price pl-20 d-inline-block">
-                                <span class="black-color">$396.00</span>
-                            </div>
-                            <div class="product-dot d-inline-block float-right pr-20">
-                                <span class="green-bg"></span>
-                                <span class="black-bg"></span>
-                                <span class="yellow-bg"></span>
-                            </div><!-- /product-dot -->
-                        </div><!-- /single-product -->
-                    </div><!-- /col -->
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="single-product bg-white position-relative pb-30">
-                            <div class="single-product-img position-relative">
-                                <a href="single-product.html"><img class="height100"
-                                        src="images/product/home-product6.jpg" alt=""></a>
-                                <div class="single-product-hover-img position-absolute">
-                                    <a href="single-product.html"><img class="height100"
-                                            src="images/product/home-product-hover-6.jpg" alt=""></a>
-                                    <ul class="single-product-button d-flex position-absolute">
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a>
-                                        </li>
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Antique Chinese Armchairs"><a href="#" data-toggle="modal"
-                                                data-target="#product-modal"><span class="icon-eye"></span></a></li>
-                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
-                                            title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
-                                        </li>
-                                    </ul>
-                                </div><!-- /single-product-hover-img -->
-                            </div><!-- /single-product-img -->
-
-                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Antique Chinese
-                                    Armchairs</a></h5>
-                            <div class="product-price pl-20">
-                                <span class="black-color">$196.00</span>
-                            </div>
-                        </div><!-- /single-product -->
-                    </div><!-- /col -->
-                </div><!-- /row -->
-            </div><!-- /container -->
-        </div>
-        <!-- product-area-end  -->
-
-        <!-- ====== blog-area-start=============================================== -->
-        <div class="blog-area over-hidden">
-            <div class="container-wrapper">
-                <div class="row">
-                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                        <div class="section-title text-center pt-40 pb-30">
-                            <h2>Our Blog Posts</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt
-                                ut labore.</p>
-                        </div><!-- /section-title -->
-                    </div><!-- /col -->
-                </div><!-- /row -->
-                <div class="xl-mlr-15">
-                    <div class="blog-active order-bottom-gray pb-65 slick-initialized slick-slider">
-                        <!-- /row -->
-                        <!-- /row -->
-                        <!-- /row -->
-                        <!-- /row -->
-                        <!-- /row -->
-                        <!-- /row -->
-                        <div class="slick-list draggable">
-                            <div class="slick-track"
-                                style="opacity: 1; width: 7155px; transform: translate3d(-1431px, 0px, 0px);">
-                                <div class="row pl-15 pr-15 slick-slide slick-cloned" style="width: 507px;"
-                                    tabindex="-1" data-slick-index="-3" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class="blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img4.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Miranda Skoaled
-                                                        Homestead</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-cloned" style="width: 507px;"
-                                    tabindex="-1" data-slick-index="-2" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img5.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Girl With Hat In The
-                                                        Beach</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-cloned" style="width: 507px;"
-                                    tabindex="-1" data-slick-index="-1" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img6.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Sunglasses To Wear
-                                                        This Summer</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-current slick-active"
-                                    style="width: 507px;" tabindex="0" data-slick-index="0" aria-hidden="false">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img1.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="0">01 nov, 2020</a></li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="0">Supt In Qui Officia
-                                                        Deserunt</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="0">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-active" style="width: 507px;" tabindex="0"
-                                    data-slick-index="1" aria-hidden="false">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img2.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="0">01 nov, 2020</a></li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="0">How Wear The Summer
-                                                        Style</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="0">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-active" style="width: 507px;" tabindex="0"
-                                    data-slick-index="2" aria-hidden="false">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img3.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="0">01 nov, 2020</a></li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="0">Men Wearing Canvas
-                                                        Boots</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="0">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide" style="width: 507px;" tabindex="-1"
-                                    data-slick-index="3" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class="blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img4.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Miranda Skoaled
-                                                        Homestead</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide" style="width: 507px;" tabindex="-1"
-                                    data-slick-index="4" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img5.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Girl With Hat In The
-                                                        Beach</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide" style="width: 507px;" tabindex="-1"
-                                    data-slick-index="5" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img6.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Sunglasses To Wear
-                                                        This Summer</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-cloned" style="width: 507px;"
-                                    tabindex="-1" data-slick-index="6" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img1.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Supt In Qui Officia
-                                                        Deserunt</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-cloned" style="width: 507px;"
-                                    tabindex="-1" data-slick-index="7" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img2.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">How Wear The Summer
-                                                        Style</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-cloned" style="width: 507px;"
-                                    tabindex="-1" data-slick-index="8" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img3.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Men Wearing Canvas
-                                                        Boots</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-cloned" style="width: 507px;"
-                                    tabindex="-1" data-slick-index="9" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class="blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img4.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Miranda Skoaled
-                                                        Homestead</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-cloned" style="width: 507px;"
-                                    tabindex="-1" data-slick-index="10" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img5.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Girl With Hat In The
-                                                        Beach</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                                <div class="row pl-15 pr-15 slick-slide slick-cloned" style="width: 507px;"
-                                    tabindex="-1" data-slick-index="11" aria-hidden="true">
-                                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                        <div class="single-blog pb-40">
-                                            <div class=" blog-img over-hidden">
-                                                <img class="height100 width100" src="images/blog/blog-img6.jpg" alt="">
-                                            </div>
-                                            <div class="single-blog-content pt-25">
-                                                <ul class="d-flex pb-6">
-                                                    <li><span>Post date:</span></li>
-                                                    <li><a class="date pl-1" href="#" tabindex="-1">01 nov, 2020</a>
-                                                    </li>
-                                                </ul>
-                                                <h4><a href="blog-right-sidebar.html" tabindex="-1">Sunglasses To Wear
-                                                        This Summer</a></h4>
-                                                <p class="pt-10">It is accompanied by a case that can contain up to
-                                                    three different diffusers and can be used for dry …</p>
-                                                <a href="blog-right-sidebar.html"
-                                                    class="btn black-color border-black mt-15" tabindex="-1">Continue
-                                                    Reading</a>
-                                            </div>
-                                        </div><!-- /single-blog -->
-                                    </div><!-- /col -->
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /blog-active -->
-                </div>
-            </div><!-- /container -->
-        </div>
-        <!--  blog-area-end  -->
 
         <!-- ====== subscribe-area-start========================================== -->
         <div class="subscribe-area pb-100">

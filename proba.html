@@ -26,132 +26,1014 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <scrip src="js/bootstrap.min.js"></scrip>
-    <scrip src="js/slick.min.js"></scrip>
-    <scrip src="js/main.js"></scrip>
+    <script src="js/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
 
+    <!--  ====== header-area-start=======================================  -->
+    <header>
+        <div id="header-sticky" class="header-area white-bg">
+            <div class="header header-2 position-relative pl-35 pr-35">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-lg-between">
+                        <div class="col-xl-3  col-lg-7 col-md-7 col-sm-7 col-8">
+                        <!---   <div class="logo float-right float-xl-left">
+                                <a href="index.html"><img src="images/logo/logo.svg" alt="Agota"></a>
+                            </div>
+                            ---->
+                            <div class="logo float-right float-xl-left">
+                                <a href="index.html"><img src="/images/logo/logo-FreyaMebel3.jpg" alt="Agota"></a>
+                            </div>
+                            <div class="d-block d-xl-none">
+                                <a class="mobile-menubar" href="javascript:void(0);"><i class="fas fa-bars"></i></a>
+                            </div>
+                        </div><!-- /col -->
+                        <div
+                            class="col-xl-6 col-lg-1 col-md-1 col-sm-1 col-1 d-none d-lg-flex align-items-lg-center justify-content-lg-center position-static">
+                            <div class="main-menu">
+                                <nav id="mobile-menu" style="display: block;">
+                                    <ul>
+                                        <li><a class="active" href="index.html">Home</a>
+                                            <ul class="mega-menu" data-background="images/bg/bg-menu-home-1-1.jpg"
+                                                style="background-image: url(&quot;images/bg/bg-menu-home-1-1.jpg&quot;);">
+                                                <li class="mega-title mt-0"><a href="#">Homepage Demos</a></li>
+                                                <li><a href="index.html">Home v1</a></li>
+                                                <li><a href="index2.html">Home v2</a></li>
+                                                <li><a href="index3.html">Home v3</a></li>
+                                                <li><a href="index4.html">Home v4</a></li>
+                                                <li><a href="index5.html">Home v5</a></li>
+                                                <li><a href="index6.html">Home v6</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="full-mega-menu-position"><a href="shop.html">Shop</a>
+                                            <ul class="mega-menu full-mega-menu pb-20"
+                                                data-background="images/bg/banner-menu-shop.jpg"
+                                                style="background-image: url(&quot;images/bg/banner-menu-shop.jpg&quot;);">
+                                                <li>
+                                                    <a class="mega-title mt-0" href="#">Shop Layout</a>
+
+                                                    <ul>
+                                                        <li><a href="shop.html">Full width</a></li>
+                                                        <li><a href="shop-sidebar-right.html"> Sidebar Right</a></li>
+                                                        <li><a href="shop-sidebar-left.html"> Sidebar left</a></li>
+                                                        <li><a href="shop-list-view.html">List View</a></li>
+                                                        <li><a href="cart.html">Checkout</a></li>
+                                                        <li><a href="cart.html">Cart</a></li>
+                                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a class="mega-title mt-0" href="#">Product Layout</a>
+                                                    <ul>
+                                                        <li><a href="big-img-scroll.html">Big images scrolling</a></li>
+                                                        <li><a href="product-carousel.html">Product Carousel</a></li>
+                                                        <li><a href="product-grid.html">Product Grid</a></li>
+                                                        <li><a href="vertical-right.html">Vertical Right</a></li>
+                                                        <li><a href="vertical-left.html">Vertical Left</a></li>
+                                                        <li><a href="vertical-horizontal.html">Vertical Horizontal</a>
+                                                        </li>
+                                                        <li><a href="shop.html">Collection</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a class="mega-title mt-0" href="#">Product Types</a>
+                                                    <ul>
+                                                        <li><a href="single-product.html">Simple Product</a></li>
+                                                        <li><a href="grouped-product.html">Grouped Product</a></li>
+                                                        <li><a href="shop.html">Variable Product</a></li>
+                                                        <li><a href="shop.html">Downloadable</a></li>
+                                                        <li><a href="shop.html">Special Product</a></li>
+                                                        <li><a href="shop.html">Outshoot store</a></li>
+                                                        <li><a href="shop.html">Music</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a class="mega-title mt-0" href="#">Product Categories</a>
+                                                    <ul>
+                                                        <li><a href="shop.html">Bedroom</a></li>
+                                                        <li><a href="shop.html">Outdoor</a></li>
+                                                        <li><a href="shop.html">Decoration</a></li>
+                                                        <li><a href="shop.html">Kitchen</a></li>
+                                                        <li><a href="shop.html">Lighting</a></li>
+                                                        <li><a href="shop.html">Table</a></li>
+                                                        <li><a href="shop.html">Decor</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul><!-- /mega-menu -->
+                                        </li>
+                                        <li><a href="about-us.html">About</a></li>
+                                        <li><a href="blog-right-sidebar.html">blog</a>
+                                            <ul class="mega-menu mega-dropdown-menu">
+                                                <li class="position-relative">
+                                                    <a href="#">Blog Standard <span class="pr-20 float-right"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                    <div class="mega-menu mega-sub-menu">
+                                                        <ul>
+                                                            <li><a href="blog.html">Blog Full Width</a></li>
+                                                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a>
+                                                            </li>
+                                                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a>
+                                                            </li>
+                                                            <li><a href="blog-sidebar-none.html">Blog Sidebar None</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!-- /mega-sub-menu -->
+                                                </li>
+                                                <li><a href="blog-left-sidebar.html">Blog Big Image</a></li>
+                                                <li><a href="blog-grid.html">Blog Grid</a></li>
+                                                <li><a href="blog-box-landing.html">Blog Box Landing</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="#">Pages</a>
+                                            <ul class="mega-menu mega-dropdown-menu">
+                                                <li><a href="page-not-found.html">pages 404</a></li>
+                                                <li><a href="about-me.html">about me</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div><!-- /main-menu -->
+                        </div><!-- /col -->
+                        <div class="col-xl-3  col-lg-4 col-md-5 col-sm-5 col-4">
+                            <div class="header-right d-flex justify-content-end">
+                                <ul class="header-login d-none d-xl-block">
+                                    <li><a href="login.html" data-toggle="tooltip" data-selector="true"
+                                            data-placement="bottom" title="Login / Register">Login / register</a></li>
+                                </ul>
+                                <ul class="header-search d-none d-xl-block">
+                                    <li><a href="javascript:void(0);"><span class="icon-search"></span></a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header-shopping-cart" href="#">
+                                        <span class="icon-shopping-bag"><svg viewBox="0 0 208.955 208.955"><use xlink:href="css/svg/sprite.svg#shop-bag"></use></svg></span>
+                                                <sup class="s-count">0</sup></a></li>
+                                </ul>
+                            </div><!-- /header-right -->
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div>
+        </div><!-- /header-bottom -->
+    </header>  
+    <!--  header area end -->
+
+    <!----ver2 Header-->
+    
+    <!--ver2-->
+
+    <!--  ====== header extra info start================================== -->
+    <!-- side-mobile-menu start -->
+    <div class="side-mobile-menu bg-white pt-30 pb-30 pl-30 pr-30">
+        <div class="close-icon float-right pt-10">
+            <a href="javascript:void(0);"><span class="icon-clear"></span></a>
+        </div>
+        <div class="header-search-content pt-110">
+            <h4 class="pb-10 text-center">Searching</h4>
+            <ul class="">
+                <li><a class="active" href="shop.html">All categories</a></li>
+                <li><a href="shop.html">Bedroom</a></li>
+                <li><a href="shop.html">Decor</a></li>
+                <li><a href="shop.html">Decoration</a></li>
+                <li><a href="shop.html">Kitchen</a></li>
+                <li><a href="shop.html">Lamp</a></li>
+            </ul>
+            <form action="contact.html" class="position-relative pt-10 pb-15">
+                <input type="text" placeholder="Search Products...">
+                <a class="position-absolute" href="javascript:void(0)"><span class="icon-search"></span></a>
+            </form>
+        </div>
+        <div class="mobile-menu"></div>
+        <div class="menu-login pt-50 pb-200">
+            <ul class="header-login d-flex justify-content-between border-bottom-gray">
+                <li><a href="index.html">Login / register</a></li>
+                <li><a href="javascript:void(0)"><span class="icon-users"></span></a></li>
+            </ul>
+            <ul class="header-heart d-flex justify-content-between border-bottom-gray">
+                <li><a href="javascript:void(0)">Wishlist</a></li>
+                <li><a href="wishlist.html"><span class="icon-heart"></span></a></li>
+            </ul>
+        </div><!-- /header-right -->
+    </div><!-- /side-mobile-menu -->
+
+    <!-- header-shopping-cart-details start -->
+    <div class="header-shopping-cart-details white-bg pt-50 pb-40 pl-50 pr-40">
+        <div class="close-icon float-right">
+            <a href="javascript:void(0);"><span class="icon-clear"></span></a>
+        </div>
+        <h5 class="mb-30">Your Cart</h5>
+        <p>No products in the cart.</p>
+    </div><!-- /header-shopping-cart-details -->
+    <!-- header extra info end  -->
 
     <main>
 
         <!-- ======slider-area-start============================================ -->
-        <div class="slider-area slider-3 over-hidden">
-            <div class="slider-active slick-initialized slick-slider slick-dotted">
-                <div class="slick-list draggable">
-                    <div class="slick-track" style="opacity: 1; width: 5709px;">
-                        <div class="single-slider slider-height-3 d-flex align-items-center slick-slide"
-                            data-background="images/slider/banner1-h3.jpg" data-slick-index="0"
-                            style="background-image: url(&quot;images/slider/banner1-h3.jpg&quot;); width: 1903px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"
-                            aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide00"
-                            aria-describedby="slick-slide-control00">
-                            <!-- <div class="container-slide"> -->
-                            <div class="container">
-                                <div class="row">
-                                    <div
-                                        class="col-xl-12  col-lg-6  col-md-12  col-sm-12 col-12  d-flex align-items-center position-static">
-                                        <div class="slider-content">
-                                            <span data-animation="fadeInLeft" data-delay=".7s"
-                                                class="position-relative primary-color pl-60"
-                                                style="animation-delay: 0.7s;">Featured Products</span>
-                                            <h1 data-animation="fadeInDown" data-delay="1s" class="pt-20 pb-10"
-                                                style="animation-delay: 1s;">Outset</h1>
-                                            <p data-animation="fadeInLeft" data-delay="1.3s" class="text-white"
-                                                style="animation-delay: 1.3s;">Form is designed by Agota Store and is
-                                                part of the Form series. It is an <br>armless modern chair with great
-                                                back support.</p>
-                                            <a data-animation="fadeInUp" data-delay="1.7s" href="index.html"
-                                                class="btn mt-70" tabindex="-1"
-                                                style="animation-delay: 1.7s;">Explore</a>
-                                        </div>
-                                    </div><!-- /col -->
-                                </div><!-- /row -->
-                            </div><!-- /container -->
-                            <!-- </div> -->
-                        </div>
-                        <div class="single-slider slider-height-3 d-flex align-items-center slick-slide"
-                            data-background="images/slider/banner2-h3.jpg" data-slick-index="1"
-                            style="background-image: url(&quot;images/slider/banner2-h3.jpg&quot;); width: 1903px; position: relative; left: -1903px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"
-                            aria-hidden="true" tabindex="0" role="tabpanel" id="slick-slide01"
-                            aria-describedby="slick-slide-control01">
-                            <div class="container">
-                                <div class="row">
-                                    <div
-                                        class="col-xl-6  col-lg-6  col-md-12  col-sm-12 col-12  d-flex align-items-center position-static">
-                                        <div class="slider-content">
-                                            <span data-animation="fadeInLeft" data-delay=".7s"
-                                                class="position-relative primary-color pl-60"
-                                                style="animation-delay: 0.7s;">Top Sale Of The Month</span>
-                                            <h1 data-animation="fadeInLeft" data-delay="1s" class="pt-20 pb-10"
-                                                style="animation-delay: 1s;">Styles</h1>
-                                            <p data-animation="fadeInLeft" data-delay="1.3s" class="text-white"
-                                                style="animation-delay: 1.3s;">Form is designed by Agota Store and is
-                                                part of the Form series. It is an <br>armless modern chair with great
-                                                back support.</p>
-                                            <a data-animation="fadeInLeft" data-delay="1.7s" href="index.html"
-                                                class="btn mt-70" tabindex="0"
-                                                style="animation-delay: 1.7s;">Explore</a>
-                                        </div>
-                                    </div><!-- /col -->
-                                </div><!-- /row -->
-                            </div><!-- /container -->
-                        </div>
-                        <div class="single-slider slider-height-3 d-flex align-items-center slick-slide slick-current slick-active"
-                            data-background="images/slider/banner-h3.jpg" data-slick-index="2"
-                            style="background-image: url(&quot;images/slider/banner-h3.jpg&quot;); width: 1903px; position: relative; left: -3806px; top: 0px; z-index: 1000; opacity: 1; transition: opacity 500ms ease 0s;"
-                            aria-hidden="false" tabindex="-1" role="tabpanel" id="slick-slide02"
-                            aria-describedby="slick-slide-control02">
-                            <div class="container">
-                                <div class="row">
-                                    <div
-                                        class="col-xl-6  col-lg-6  col-md-12  col-sm-12 col-12  d-flex align-items-center position-static">
-                                        <div class="slider-content">
-                                            <span data-animation="fadeInLeft" data-delay=".7s"
-                                                class="position-relative primary-color pl-60 animated fadeInLeft"
-                                                style="animation-delay: 0.7s;">Hot Deal Off The Day</span>
-                                            <h1 data-animation="fadeInLeft" data-delay="1s"
-                                                class="pt-20 pb-10 animated fadeInLeft" style="animation-delay: 1s;">
-                                                Office</h1>
-                                            <p data-animation="fadeInLeft" data-delay="1.3s"
-                                                class="text-white animated fadeInLeft" style="animation-delay: 1.3s;">
-                                                Form is designed by Agota Store and is part of the Form series. It is an
-                                                <br>armless modern chair with great back support.</p>
-                                            <a data-animation="fadeInLeft" data-delay="1.7s" href="index.html"
-                                                class="btn mt-70 animated fadeInLeft" tabindex="-1"
-                                                style="animation-delay: 1.7s;">Explore</a>
-                                        </div>
-                                    </div><!-- /col -->
-                                </div><!-- /row -->
-                            </div><!-- /container -->
+
+
+
+        <div class="slider-area slider-2 over-hidden">
+            <div class="slider-wrapper">
+                <div class="row">
+                    <div class="col-xl-8  col-lg-8  col-md-8  col-sm-12 col-12 pr-10">
+                        <div class="slider-site">
+                            <div class="single-banner mb-10 position-relative over-hidden">
+                                <img class="img-zoom width100" src="/images/slider/1200-360-Salon-Borispol2.jpg" alt="">
+                            </div>
                         </div>
                     </div>
-                </div><!-- /single-slider -->
-                <!-- /single-slider -->
-                <!-- /single-slider -->
-                <ul class="slick-dots" style="display: block;" role="tablist">
-                    <li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control00"
-                            aria-controls="slick-slide00" aria-label="1 of 3" tabindex="-1">1</button></li>
-                    <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control01"
-                            aria-controls="slick-slide01" aria-label="2 of 3" tabindex="0"
-                            aria-selected="true">2</button></li>
-                    <li role="presentation" class="slick-active"><button type="button" role="tab"
-                            id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 3"
-                            tabindex="-1">3</button></li>
-                </ul>
-            </div><!-- /slider-active -->
+
+
+
+                    <!-- /col -->
+                    <div class="col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12 pl-md-0">
+                        <div class="slider-site">
+                            <div class="single-banner mb-10 position-relative over-hidden">
+                                <img class="img-zoom width100" src="/images/slider/banner-slider33.jpg" alt="">
+                                <div class="section-content section-content-position position-absolute pl-55 pt-50">
+                                    <span class="text-white">Featured Item</span>
+                                    <h3 class="text-white pt-15">Lifestyle</h3>
+                                    <a href="single-product.html"
+                                        class="btn2 text-white position-relative d-inline-block pt-45 pb-6">Explore
+                                        Items</a>
+                                </div><!-- /section-content -->
+                            </div>
+                        </div>
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
         </div>
         <!-- slider-area-end  -->
 
 
+
+
+        <!-- ====== bestseller-product-area-start================================ -->
+        <div class="Bestsellers Products-area">
+            <div class="container-wrapper pl-15 pr-15">
+                <div class="row">
+                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
+                        <div class="section-title text-center pt-90 pb-30">
+                            <h2>Bestsellers Products</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt
+                                ut labore.</p>
+                        </div><!-- /section-title -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product1.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
+                                </div><!-- /single-product-hover-img -->
+                                <ul class="single-product-button d-flex position-absolute">
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Form Armchair Walnut Base">
+                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
+                                                class="icon-eye"></span></a>
+                                    </li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                    </li>
+                                </ul>
+
+                                <div class="countdown-time d-flex border-gray position-absolute">
+                                    <div class="timer">
+                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
+                                                    class="time-count">309</span>
+                                                <p>Days</p>
+                                            </span> <span class="cdown hour"><span class="time-count">9</span>
+                                                <p>Hour</p>
+                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
+                                                <p>Min</p>
+                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
+                                                    <p>Sec</p>
+                                                </span></span></div>
+                                    </div>
+                                </div><!-- /countdown-time -->
+                            </div><!-- /single-product-img -->
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
+                                    Base</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color"><ins>$799.00</ins></span>
+                                <span class="old-price"><del>$829.00</del></span>
+                            </div>
+                            <a href="#"
+                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
+                        </div><!-- /single-product -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product1.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
+                                </div><!-- /single-product-hover-img -->
+                                <ul class="single-product-button d-flex position-absolute">
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Form Armchair Walnut Base">
+                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
+                                                class="icon-eye"></span></a>
+                                    </li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                    </li>
+                                </ul>
+
+                                <div class="countdown-time d-flex border-gray position-absolute">
+                                    <div class="timer">
+                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
+                                                    class="time-count">309</span>
+                                                <p>Days</p>
+                                            </span> <span class="cdown hour"><span class="time-count">9</span>
+                                                <p>Hour</p>
+                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
+                                                <p>Min</p>
+                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
+                                                    <p>Sec</p>
+                                                </span></span></div>
+                                    </div>
+                                </div><!-- /countdown-time -->
+                            </div><!-- /single-product-img -->
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
+                                    Base</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color"><ins>$799.00</ins></span>
+                                <span class="old-price"><del>$829.00</del></span>
+                            </div>
+                            <a href="#"
+                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
+                        </div><!-- /single-product -->
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product1.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
+                                </div><!-- /single-product-hover-img -->
+                                <ul class="single-product-button d-flex position-absolute">
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Form Armchair Walnut Base">
+                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
+                                                class="icon-eye"></span></a>
+                                    </li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                    </li>
+                                </ul>
+
+                                <div class="countdown-time d-flex border-gray position-absolute">
+                                    <div class="timer">
+                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
+                                                    class="time-count">309</span>
+                                                <p>Days</p>
+                                            </span> <span class="cdown hour"><span class="time-count">9</span>
+                                                <p>Hour</p>
+                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
+                                                <p>Min</p>
+                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
+                                                    <p>Sec</p>
+                                                </span></span></div>
+                                    </div>
+                                </div><!-- /countdown-time -->
+                            </div><!-- /single-product-img -->
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
+                                    Base</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color"><ins>$799.00</ins></span>
+                                <span class="old-price"><del>$829.00</del></span>
+                            </div>
+                            <a href="#"
+                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
+                        </div><!-- /single-product -->
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product1.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
+                                </div><!-- /single-product-hover-img -->
+                                <ul class="single-product-button d-flex position-absolute">
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Form Armchair Walnut Base">
+                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
+                                                class="icon-eye"></span></a>
+                                    </li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                    </li>
+                                </ul>
+
+                                <div class="countdown-time d-flex border-gray position-absolute">
+                                    <div class="timer">
+                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
+                                                    class="time-count">309</span>
+                                                <p>Days</p>
+                                            </span> <span class="cdown hour"><span class="time-count">9</span>
+                                                <p>Hour</p>
+                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
+                                                <p>Min</p>
+                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
+                                                    <p>Sec</p>
+                                                </span></span></div>
+                                    </div>
+                                </div><!-- /countdown-time -->
+                            </div><!-- /single-product-img -->
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
+                                    Base</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color"><ins>$799.00</ins></span>
+                                <span class="old-price"><del>$829.00</del></span>
+                            </div>
+                            <a href="#"
+                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
+                        </div><!-- /single-product -->
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product5.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-5.jpg" alt=""></a>
+                                    <ul class="single-product-button d-flex position-absolute">
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to option"><a href="#"><span
+                                                    class="icon-shopping-bag"></span></a></li>
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Bottle Grinder with Steel Lid"><a href="#" data-toggle="modal"
+                                                data-target="#product-modal"><span class="icon-eye"></span></a></li>
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                        </li>
+                                    </ul>
+                                </div><!-- /single-product-hover-img -->
+                            </div><!-- /single-product-img -->
+
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Bottle Grinder with Steel
+                                    Lid</a></h5>
+                            <div class="product-price pl-20 d-inline-block">
+                                <span class="black-color">$396.00</span>
+                            </div>
+                            <div class="product-dot d-inline-block float-right pr-20">
+                                <span class="green-bg"></span>
+                                <span class="black-bg"></span>
+                                <span class="yellow-bg"></span>
+                            </div><!-- /product-dot -->
+                        </div><!-- /single-product -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product6.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-6.jpg" alt=""></a>
+                                    <ul class="single-product-button d-flex position-absolute">
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a>
+                                        </li>
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Antique Chinese Armchairs"><a href="#" data-toggle="modal"
+                                                data-target="#product-modal"><span class="icon-eye"></span></a></li>
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                        </li>
+                                    </ul>
+                                </div><!-- /single-product-hover-img -->
+                            </div><!-- /single-product-img -->
+
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Antique Chinese
+                                    Armchairs</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color">$196.00</span>
+                            </div>
+                        </div><!-- /single-product -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product1.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
+                                </div><!-- /single-product-hover-img -->
+                                <ul class="single-product-button d-flex position-absolute">
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Form Armchair Walnut Base">
+                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
+                                                class="icon-eye"></span></a>
+                                    </li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                    </li>
+                                </ul>
+
+                                <div class="countdown-time d-flex border-gray position-absolute">
+                                    <div class="timer">
+                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
+                                                    class="time-count">309</span>
+                                                <p>Days</p>
+                                            </span> <span class="cdown hour"><span class="time-count">9</span>
+                                                <p>Hour</p>
+                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
+                                                <p>Min</p>
+                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
+                                                    <p>Sec</p>
+                                                </span></span></div>
+                                    </div>
+                                </div><!-- /countdown-time -->
+                            </div><!-- /single-product-img -->
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
+                                    Base</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color"><ins>$799.00</ins></span>
+                                <span class="old-price"><del>$829.00</del></span>
+                            </div>
+                            <a href="#"
+                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
+                        </div><!-- /single-product -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product1.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
+                                </div><!-- /single-product-hover-img -->
+                                <ul class="single-product-button d-flex position-absolute">
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Form Armchair Walnut Base">
+                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
+                                                class="icon-eye"></span></a>
+                                    </li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                    </li>
+                                </ul>
+
+                                <div class="countdown-time d-flex border-gray position-absolute">
+                                    <div class="timer">
+                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
+                                                    class="time-count">309</span>
+                                                <p>Days</p>
+                                            </span> <span class="cdown hour"><span class="time-count">9</span>
+                                                <p>Hour</p>
+                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
+                                                <p>Min</p>
+                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
+                                                    <p>Sec</p>
+                                                </span></span></div>
+                                    </div>
+                                </div><!-- /countdown-time -->
+                            </div><!-- /single-product-img -->
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
+                                    Base</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color"><ins>$799.00</ins></span>
+                                <span class="old-price"><del>$829.00</del></span>
+                            </div>
+                            <a href="#"
+                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
+                        </div><!-- /single-product -->
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product1.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
+                                </div><!-- /single-product-hover-img -->
+                                <ul class="single-product-button d-flex position-absolute">
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Form Armchair Walnut Base">
+                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
+                                                class="icon-eye"></span></a>
+                                    </li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                    </li>
+                                </ul>
+
+                                <div class="countdown-time d-flex border-gray position-absolute">
+                                    <div class="timer">
+                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
+                                                    class="time-count">309</span>
+                                                <p>Days</p>
+                                            </span> <span class="cdown hour"><span class="time-count">9</span>
+                                                <p>Hour</p>
+                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
+                                                <p>Min</p>
+                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
+                                                    <p>Sec</p>
+                                                </span></span></div>
+                                    </div>
+                                </div><!-- /countdown-time -->
+                            </div><!-- /single-product-img -->
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
+                                    Base</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color"><ins>$799.00</ins></span>
+                                <span class="old-price"><del>$829.00</del></span>
+                            </div>
+                            <a href="#"
+                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
+                        </div><!-- /single-product -->
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product1.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-1.jpg" alt=""></a>
+                                </div><!-- /single-product-hover-img -->
+                                <ul class="single-product-button d-flex position-absolute">
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a></li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Form Armchair Walnut Base">
+                                        <a href="#" data-toggle="modal" data-target="#product-modal"><span
+                                                class="icon-eye"></span></a>
+                                    </li>
+                                    <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                        title="Browse wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                    </li>
+                                </ul>
+
+                                <div class="countdown-time d-flex border-gray position-absolute">
+                                    <div class="timer">
+                                        <div class="d-flex" data-countdown="2021/12/01"><span class="cdown days"><span
+                                                    class="time-count">309</span>
+                                                <p>Days</p>
+                                            </span> <span class="cdown hour"><span class="time-count">9</span>
+                                                <p>Hour</p>
+                                            </span> <span class="cdown minutes"><span class="time-count">10</span>
+                                                <p>Min</p>
+                                            </span> <span class="cdown second"> <span><span class="time-count">58</span>
+                                                    <p>Sec</p>
+                                                </span></span></div>
+                                    </div>
+                                </div><!-- /countdown-time -->
+                            </div><!-- /single-product-img -->
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Form Armchair Walnut
+                                    Base</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color"><ins>$799.00</ins></span>
+                                <span class="old-price"><del>$829.00</del></span>
+                            </div>
+                            <a href="#"
+                                class="sale-tag position-absolute text-white text-uppercase d-inline-block">sale</a>
+                        </div><!-- /single-product -->
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product5.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-5.jpg" alt=""></a>
+                                    <ul class="single-product-button d-flex position-absolute">
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to option"><a href="#"><span
+                                                    class="icon-shopping-bag"></span></a></li>
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Bottle Grinder with Steel Lid"><a href="#" data-toggle="modal"
+                                                data-target="#product-modal"><span class="icon-eye"></span></a></li>
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                        </li>
+                                    </ul>
+                                </div><!-- /single-product-hover-img -->
+                            </div><!-- /single-product-img -->
+
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Bottle Grinder with Steel
+                                    Lid</a></h5>
+                            <div class="product-price pl-20 d-inline-block">
+                                <span class="black-color">$396.00</span>
+                            </div>
+                            <div class="product-dot d-inline-block float-right pr-20">
+                                <span class="green-bg"></span>
+                                <span class="black-bg"></span>
+                                <span class="yellow-bg"></span>
+                            </div><!-- /product-dot -->
+                        </div><!-- /single-product -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="single-product bg-white position-relative pb-30">
+                            <div class="single-product-img position-relative">
+                                <a href="single-product.html"><img class="height100"
+                                        src="images/product/home-product6.jpg" alt=""></a>
+                                <div class="single-product-hover-img position-absolute">
+                                    <a href="single-product.html"><img class="height100"
+                                            src="images/product/home-product-hover-6.jpg" alt=""></a>
+                                    <ul class="single-product-button d-flex position-absolute">
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to cart"><a href="#"><span class="icon-shopping-bag"></span></a>
+                                        </li>
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Antique Chinese Armchairs"><a href="#" data-toggle="modal"
+                                                data-target="#product-modal"><span class="icon-eye"></span></a></li>
+                                        <li data-toggle="tooltip" data-selector="true" data-placement="bottom"
+                                            title="Add to wishlist"><a href="#"><span class="icon-heart"></span></a>
+                                        </li>
+                                    </ul>
+                                </div><!-- /single-product-hover-img -->
+                            </div><!-- /single-product-img -->
+
+                            <h5 class="product-name pt-20 pl-20"><a href="single-product.html">Antique Chinese
+                                    Armchairs</a></h5>
+                            <div class="product-price pl-20">
+                                <span class="black-color">$196.00</span>
+                            </div>
+                        </div><!-- /single-product -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+                <div class="row">
+                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
+                        <div class="section-button text-center pt-10">
+                            <a href="shop.html" class="btn black-color border-black">All Product</a>
+                        </div><!-- /section-title -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div>
+        <!-- product-area-end  -->
+
+        <!-- ====== product-offer-area-start ===================================== -->
+        <div class="product-offer-area product-offer-height pl-15 pr-15 pt-100">
+            <div class="container-wrapper">
+                <div class="row">
+                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12 pb-20">
+                        <div class="single-feature position-relative over-hidden">
+                            <img class="img-zoom" src="images/feature/product-offer-left-img.jpg" alt="">
+                            <div class="section-content section-content-position position-absolute pl-90 pt-110">
+                                <span class="primary-color">Ends Today</span>
+                                <h3 class="text-white pt-10 pb-30">Elements Of Style</h3>
+                                <p class="text-white">USB Powered LED Lights – Use it Anywhere!</p>
+                                <a href="shop.html" class="btn2 text-white position-relative d-inline-block pt-45 pb-6">Explore Items</a>
+                            </div><!-- /section-content -->
+                        </div>
+                    </div><!-- /col -->
+                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12 pb-20">
+                        <div class="single-feature position-relative over-hidden">
+                            <img class="img-zoom" src="images/feature/product-offer-right-img.jpg" alt="">
+                            <div class="section-content section-content-position position-absolute pl-90 pt-110">
+                                <span class="primary-color">Your Space</span>
+                                <h3 class="text-white pt-10 pb-30">Unique Life</h3>
+                                <p class="text-white">Big Sale September 8th To October 6th</p>
+                                <a href="shop.html" class="btn2 text-white position-relative d-inline-block pt-45 pb-6">Explore Items</a>
+                            </div><!-- /section-content -->
+                        </div>
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div>
+        <!--  product-offer-area-end  -->
+
+
+        <!-- ====== blog-area-start=============================================== -->
+        <div class="blog-area over-hidden">
+            <div class="container-wrapper">
+                <div class="row">
+                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
+                        <div class="section-title text-center pt-40 pb-30">
+                            <h2>Our Blog Posts</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt
+                                ut labore.</p>
+                        </div><!-- /section-title -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div>
+        <!--  blog-area-end  -->
+
+        <!-- ====== subscribe-area-start========================================== -->
+        <div class="subscribe-area pb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8  col-lg-10  col-md-12  col-sm-12 col-12 offset-xl-2 offset-lg-1">
+                        <div class="section-title text-center pl-50 pr-50">
+                            <h2 class="pb-1">Get Deals Of The Store</h2>
+                            <p>Subscribe to the Agota Store mailing list to receive updates on new arrivals, special
+                                offers and other
+                                discount information.</p>
+                        </div><!-- /section-title -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div>
+        <!--  brand-logo-area-end   -->
+
+        <!-- ----------------Instagram ---------------->
+        <div class="instagram-img-area over-hidden">
+            <div class="row">
+                <div class="col-xl-2  col-lg-2  col-md-2  col-sm-2 col-6 p-0">
+                    <div class="instagram-img">
+                        <img src="images/instagram/instragram-img1.jpg" alt="">
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-2  col-lg-2  col-md-2  col-sm-2 col-6 p-0">
+                    <div class="instagram-img">
+                        <img src="images/instagram/instragram-img2.jpg" alt="">
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-2  col-lg-2  col-md-2 col-sm-2 col-6 p-0">
+                    <div class="instagram-img">
+                        <img src="images/instagram/instragram-img3.jpg" alt="">
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-2  col-lg-2  col-md-2  col-sm-2 col-6 p-0">
+                    <div class="instagram-img">
+                        <img src="images/instagram/instragram-img1.jpg" alt="">
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-2  col-lg-2  col-md-2  col-sm-2 col-6 p-0">
+                    <div class="instagram-img">
+                        <img src="images/instagram/instragram-img2.jpg" alt="">
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-2  col-lg-2  col-md-2  col-sm-2 col-6 p-0">
+                    <div class="instagram-img">
+                        <img src="images/instagram/instragram-img1.jpg" alt="">
+                    </div>
+                </div><!-- /col -->
+            </div><!-- /row -->
+        </div>
+        <!-- Instagram end -->
+
     </main>
 
+    <!-- ====== footer-area-start ============================================= -->
+    <footer>
+        <div class="footer-area widget-area pt-100 dark-black-bg">
+            <div class="border-footer pb-35">
+                <div class="container-wrapper pl-15 pr-15">
+                    <div class="row">
+                        <div class="col-xl-2  col-lg-2  col-md-4  col-sm-4 col-6">
+                            <div class="footer-widget pb-30">
+                                <h4 class="text-uppercase text-white ">Information</h4>
+                                <ul class="footer-info pt-35">
+                                    <li><a href="about-us.html">About us</a></li>
+                                    <li><a href="about-us.html">Customer Service</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="page-not-found.html">Page 404</a></li>
+                                    <li><a href="about-us.html">Sizing Guide</a></li>
+                                    <li><a href="about-us.html">FAQs</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-2  col-lg-2  col-md-4  col-sm-4 col-6 d-flex justify-content-center">
+                            <div class="footer-widget pb-30">
+                                <h4 class="text-uppercase text-white">Our Service</h4>
+                                <ul class="footer-info pt-35">
+                                    <li><a href="about-us.html">Shipping Policy</a></li>
+                                    <li><a href="about-us.html">Help &amp; Contact Us</a></li>
+                                    <li><a href="about-us.html">Returns &amp; Refunds</a></li>
+                                    <li><a href="about-us.html">Online Stores</a></li>
+                                    <li><a href="about-us.html">Payment Method</a></li>
+                                    <li><a href="about-us.html">Terms &amp; Conditions</a></li>
+                                    <li><a href="about-us.html">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-2  col-lg-2  col-md-4  col-sm-4 col-12 d-flex justify-content-end">
+                            <div class="footer-widget pb-30">
+                                <h4 class="text-uppercase text-white">Payment &amp; Shipping</h4>
+                                <ul class="footer-info pt-35">
+                                    <li><a href="about-us.html">Terms Of Use</a></li>
+                                    <li><a href="about-us.html">Payment Methods</a></li>
+                                    <li><a href="about-us.html">Shipping Guide</a></li>
+                                    <li><a href="about-us.html">Locations We Ship To</a></li>
+                                    <li><a href="about-us.html">Estimated Delivery Time</a></li>
+                                    <li><a href="about-us.html">Express</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-6  col-lg-6  col-md-12  col-sm-12 col-12">
+                            <div class="footer-widget subscriber-area pb-30 pl-100">
+                                <h4 class="text-uppercase text-white">Get Deals Of The Store</h4>
+                                <div class="footer-info pt-30">
+                                    <p class="pb-15">Subscribe to the Agota Store mailing list to receive updates on new
+                                        arrivals, special offers and other discount information.</p>
+                                    <form action="contact.html" class="d-flex justify-content-center">
+                                        <input type="text" name="email" id="email"
+                                            placeholder="Subscribe to our newsletter...">
+                                        <button type="submit" class="btn pl-30 border-white ml-2">Send</button>
+                                    </form>
+                                    <ul class="footer-address mt-25">
+                                        <li>Email: admin@basictheme.com.</li>
+                                        <li>Add: S9 Heaven Stress, Beverly Hill, Melbourne, USA.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div><!-- /widget-area -->
+            <div class="copyright-area pt-50 pb-50">
+                <div class="container-wrapper pl-15 pr-15">
+                    <div class="row align-items-center">
+                        <div class="col-xl-9 col-lg-12 col-md-12  col-sm-12 col-12">
+                            <div class="row align-items-center">
+                                <div class="col-xl-5  col-lg-12 col-md-12 col-sm-12 col-12 pr-0 ">
+                                    <div class="copyright-text position-relative">
+                                        <p>Copyright ©
+                                            <a class="pr-1 pl-1 text-white" href="#">Agota – BasicTheme.</a>
+                                            All Rights Reserved.</p>
+                                    </div>
+                                </div><!-- /col -->
+                                <div class="col-xl-7  col-lg-12 col-md-12  col-sm-12 col-12 pl-0">
+                                    <ul class="copyright-menu d-flex align-items-center">
+                                        <li><a href="index.html">Site Map</a></li>
+                                        <li><a href="index.html">Search Terms</a></li>
+                                        <li><a href="index.html">Advanced Search</a></li>
+                                        <li><a href="index.html">Contact us</a></li>
+                                    </ul>
+                                </div><!-- /col -->
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-3  col-lg-12  col-md-12  col-sm-12 col-12">
+                            <ul class="copyright-cart d-flex justify-content-end">
+                                <li><a href="index.html"><img src="images/bg/footer.png" alt=""></a></li>
+                            </ul>
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div><!-- /copyright-area -->
+        </div>
+    </footer>
+
+    <!-- back top -->
+    <div class="position-relative">
+        <div class="top text-center border-gray2" style="display: none;"><span class="icon-chevrons-up"></span></div>
+    </div>
     <!-- ================= footer-area-end ===============  -->
 
+    <!-- All js here -->
+    <scrip src="js/modernizr-3.5.0.min.js"></scrip>
+    <!---<scrip src="js/vendor/jquery-1.12.4.min.js"></scrip>--->
+    <scrip src="js/popper.min.js"></scrip>
+    <scrip src="js/bootstrap.min.js"></scrip>
+    <scrip src="js/jquery.inputarrow.js"></scrip>
+    <scrip src="js/jquery.nice-select.min.js"></scrip>
+    <scrip src="js/slick.min.js"></scrip>
+    <scrip src="js/isotope.pkgd.min.js"></scrip>
+    <scrip src="js/plugins.js"></scrip>
+    <scrip src="js/countdown.min.js"></scrip>
+    <scrip src="js/jquery.meanmenu.min.js"></scrip>
+    <scrip src="js/main.js"></scrip>
 
 
 
+    <div>
+        <div
+            style="display: none; position: fixed; top: 30px; width: auto; max-width: 100%; text-align: center; left: 50%; transform: translateX(-50%); z-index: 99999999;">
+            <div
+                style="display: inline-block; font-size: 14px; font-weight: bold; border: 1px solid rgb(240, 195, 109); background-color: rgb(249, 237, 190); padding: 0px 10px; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

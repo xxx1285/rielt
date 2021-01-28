@@ -39,10 +39,12 @@
 
 /* 1. Theme default css
 -------------------------------------------------------------- */
+/*
 body {
 	font-family: "FuturaStd-Book";
 	font-weight: 400;
 }
+*/
 h1,h2,h3,h4,h5,h6 {color: #222222;font-weight: 500;}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {color: inherit;}
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {color: #006699}
@@ -454,11 +456,21 @@ a:focus,a:hover,.portfolio-cat a:hover,.footer-menu li a:hover {
 	color :#fff;
 	font-size: 18px;
 }
+.header-right ul li .header-shopping-cart svg{    
+	display: block;
+    width: 25px;
+	height: 100%;
+}
 .header a.mobile-menubar {font-size: 20px;}
 .s-count {
-	font-size: 12px;
 	font-family: 'Rubik', sans-serif;
-	padding-left: 3px;
+    border-radius: 50%;
+    color: #fff;
+    background: #ff5b5b;
+    text-align: center;
+    width: 15px;
+    font-size: 10px;
+    line-height: 14px;
 }
 /* header-2 */
 .main-menu ul li.logo > a::before {display: none;}

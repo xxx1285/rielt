@@ -347,6 +347,7 @@ a:focus,a:hover,.portfolio-cat a:hover,.footer-menu li a:hover {
 }
 .header-area.sticky-menu,.header:hover {background: #fff;}
 .logo img {max-width: 250px;}
+.logo svg {max-width: 200px; max-height: 40px;}
 /**.logo img {
 	filter: invert(1) sepia(1) hue-rotate(0deg) brightness(1.2);
 }**/
@@ -451,7 +452,7 @@ a:focus,a:hover,.portfolio-cat a:hover,.footer-menu li a:hover {
 .main-menu .mega-menu ul > li {margin-left: 0;}
 .main-menu ul li .mega-menu.full-mega-menu a {padding: 0;}
 /* header right */
-.header-right ul li {padding-left: 26px;}
+.header-right ul li {padding-left: 26px;padding-right: 5px;}
 .header-right ul li a,a.mobile-menubar {
 	color :#fff;
 	font-size: 18px;
@@ -461,7 +462,10 @@ a:focus,a:hover,.portfolio-cat a:hover,.footer-menu li a:hover {
     width: 25px;
 	height: 100%;
 }
-.header a.mobile-menubar {font-size: 20px;}
+.header a.mobile-menubar {font-size: 20px; display: inline-block;
+    padding-top: 7px;
+    padding-left: 3px; max-width: 30px;}
+.header a.mobile-menubar svg {max-width: 30px;  max-height: 30px;}
 .s-count {
 	font-family: 'Rubik', sans-serif;
     border-radius: 50%;
@@ -469,8 +473,10 @@ a:focus,a:hover,.portfolio-cat a:hover,.footer-menu li a:hover {
     background: #ff5b5b;
     text-align: center;
     width: 15px;
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 11px;
+	line-height: 14px;
+	position: absolute;
+    right: 0px;
 }
 /* header-2 */
 .main-menu ul li.logo > a::before {display: none;}
